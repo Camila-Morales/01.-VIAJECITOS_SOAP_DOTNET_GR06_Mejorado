@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="32dp">
+
+        <TextView
+            android:text="Viajecitos SA"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#004080"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Bienvenido al portal de vuelos"
+            android:textColor="#666"
+            android:layout_marginBottom="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etUsuario"
+            android:hint="Nombre de usuario"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_edittext"
+            android:padding="14dp"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/etClave"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_edittext"
+            android:padding="14dp"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnIngresar"
+            android:text="Ingresar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#004080"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+</ScrollView>
